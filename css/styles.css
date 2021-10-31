@@ -34,6 +34,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #1abc9c;
+  --bs-tertiary: #ffffff;
   --bs-secondary: #2c3e50;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -601,6 +602,16 @@ progress {
 
 .img-fluid {
   max-width: 100%;
+  height: auto;
+}
+
+.githubio{
+  max-width: 80%;
+  height: auto;
+}
+
+.ss{
+  max-width: 60%;
   height: auto;
 }
 
@@ -7429,6 +7440,11 @@ textarea.form-control-lg {
 
 .ms-auto {
   margin-left: auto !important;
+}
+
+.ms-just{
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .p-0 {
